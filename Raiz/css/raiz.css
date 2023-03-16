@@ -1,0 +1,17 @@
+html {
+    font-family: sans-serif; text-align: center;
+}
+
+body {
+    display: inline-block; text-align: left;
+}
+
+label, legend {
+    font-weight: bold;
+}
+
+input[type=number], .numero {
+    text-align: right;
+} 
+  
+

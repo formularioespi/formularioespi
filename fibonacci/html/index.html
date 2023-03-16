@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      html {
+        font-family: sans-serif;
+        text-align: center;
+      }
+      body {
+        display: inline-block;
+        text-align: left;
+      }
+      label,
+      legend {
+        font-weight: bold;
+      }
+    </style>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Serie De Fibonacci</h1>
+    </header>
+
+    <form id="forma" action="javascript:;">
+      <p>
+        <label accesskey="s">
+          Serie
+          <input type="text" name="serie" />
+          <input type="submit" value="Generar" />
+          <input type="reset" value="Limpiar" />
+        </label>
+      </p>
+
+      <p>
+        <label accesskey="r">
+          <textarea
+            name="resultado" readonly="readonly" cols="30" rows="25"
+          ></textarea>
+        </label>
+      </p>
+    </form>
+    <br />
+    <footer>
+      <p>Copyright 2023 Marco Antonio Espinosa Serrano</p>
+    </footer>
+
+    <script src="/js/fibonacci.js"></script>
+  </body>
+</html>
